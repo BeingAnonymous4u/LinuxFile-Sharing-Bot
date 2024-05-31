@@ -1,0 +1,3 @@
+class script(object):
+
+    CAPTION = """ """
