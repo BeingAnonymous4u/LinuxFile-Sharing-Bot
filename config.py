@@ -49,8 +49,9 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<a href="https://t.me/+234Q4gdwd9BhNDU1"><b>📝Fɪʟᴇ Nᴀᴍᴇ :  {filename} </b></a>
-<a href="https://t.me/iPopCormbot"><b><i>ᴘʟᴇᴀsᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪs ꜰɪʟᴇs ᴛᴏ ᴡᴀᴛᴄʜ ᴀɴᴅ sᴛʀᴇᴀᴍ ᴛʜɪs ғɪʟᴇ</i></b></a>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", """<b><a href="https://t.me/+234Q4gdwd9BhNDU1">📝Fɪʟᴇ Nᴀᴍᴇ :  {filename}
+
+<a href="https://t.me/iPopCormbot"><i>ᴘʟᴇᴀsᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪs ꜰɪʟᴇs ᴛᴏ ᴡᴀᴛᴄʜ ᴀɴᴅ sᴛʀᴇᴀᴍ ᴛʜɪs ғɪʟᴇ</i></a></b>""")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
