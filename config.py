@@ -1,6 +1,5 @@
 #(©)CodeXBotz
 
-from Script import script
 
 
 import os
